@@ -157,14 +157,28 @@ body {
 
 .privacy-note {
   font-size: 0.85rem;
-  color: #666;
+  color: #2e2e2e;
   text-align: center;
   line-height: 1.4;
 }
 
 .privacy-note a {
-  color: #667eea;
-  text-decoration: none;
+  color: #0066cc;
+  text-decoration: underline;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.privacy-note a:hover {
+  color: #004499;
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+}
+
+.privacy-note a:focus {
+  outline: 2px solid #0066cc;
+  outline-offset: 2px;
+  border-radius: 2px;
 }
 
 /* Prueba social - Elemento de conversión */
